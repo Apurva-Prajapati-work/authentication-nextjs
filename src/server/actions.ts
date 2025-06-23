@@ -33,7 +33,7 @@ export async function login(prevState: any, formData: FormData) {
   if (email !== testUser.email || password !== testUser.password) {
     return {
       errors: {
-        email: ["Invalid email or password"],
+        email: ["Invali email or password"],
       },
     };
   }
