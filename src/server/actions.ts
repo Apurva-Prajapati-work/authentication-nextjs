@@ -6,8 +6,8 @@ import { redirect } from "next/navigation";
 
 const testUser = {
   id: "1",
-  email: "contact@cosdensolutions.io",
-  password: "12345678",
+  email: "test@classyendeavors.com",
+  password: "qwertyui",
 };
 
 const loginSchema = z.object({
